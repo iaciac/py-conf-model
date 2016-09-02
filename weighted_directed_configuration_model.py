@@ -1,7 +1,9 @@
 
-# coding: utf-8
+#    Copyright (C) 2016 by
+#    Iacopo Iacopini <iacopini.iacopo@gmail.com>
+#    All rights reserved.
+#    BSD license.
 
-# In[ ]:
 
 import numpy as np
 import networkx as nx
