@@ -14,7 +14,7 @@ import random
    
    In addition to the networkx one, this one keeps the node name rather than assigning a new sequence of integers
    in the moment of the creation of the new network. Furthermore, I introduced a weight parameter that allows to 
-   assign the name of the attribute and the constant value -- weight_value -- that will be assigned to all the
+   assign the name of the attribute and the constant value - weight_value - that will be assigned to all the
    edges of the output network.
 """
 
