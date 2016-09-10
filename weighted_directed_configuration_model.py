@@ -122,7 +122,7 @@ def get_log_binned_chunks(edges, weight='weight', n_chunks=100):
 
 
 
-def my_weighted_directed_configuration_model(G, weight='weight', n_chunks=100):
+def my_weighted_directed_configuration_model(G, weight='weight', n_chunks=100, mode='quantiles'):
     """Returns a directed weighted random graph with the same degree sequence of the input graph
        and a 'medianised' weight distribution'.
        
