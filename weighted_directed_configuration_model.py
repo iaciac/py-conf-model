@@ -127,7 +127,7 @@ def my_weighted_directed_configuration_model(G, weight='weight', n_chunks=100, m
        and a 'medianised' weight distribution'.
        
        1. The edges of the original graph are initially split into n different chunks, representing
-          n different classes of weight. Each class defined a sub-graph.
+          n different classes of weight. Each class defines a sub-graph.
        2. For each sub-graph we run the unweighted directed configuration model (based only on the degree
           sequence) and then we assign the median of the weights of the initial sub-graph to the edges of the 
           resulting random graph.
@@ -149,7 +149,7 @@ def my_weighted_directed_configuration_model(G, weight='weight', n_chunks=100, m
         mode: string (default='quantiles')
             Keywork for the two modalities of chunk splitting
             + quantiles:
-                The edges are sorted and then equally split into n_chunk quantiles of same size.
+                The edges are sorted and then equally split into n_chunks quantiles of same size.
             + logbinning:
                 The edges are split into n_chunks log-bins. Empty bins are finally removed.
         
